@@ -1,0 +1,51 @@
+.principal{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.formulario{
+background-color: rgb(255, 255, 255);
+padding: 20px;
+border-radius:10px ;
+box-shadow: 0 4px 8p rgb(12, 12, 12);
+width: 300px;
+
+}
+
+form h3{
+text-align: center;
+margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"], input[type="password"]{
+width: 95%;
+padding:10px ;
+margin:10px;
+border: 1px solid #ccc ;
+border-radius: 5px;
+font-size: 14px
+
+}
+
+input[type="supmit"]{
+width: 100%;
+padding: 10px; background-color: rgb(179, 115, 223);
+color: #ccc;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+
+
+
+}
+
+input[type="submit"]:hover{
+background-color: rgb(177, 107, 174);
+
+
+}

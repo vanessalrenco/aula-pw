@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Login </title>
+        <link rel="stylesheet" href="./css/login.css">
+      
+    </head>
+
+    <body>
+        <div class="principal">
+            <div class="formulario">
+                <form id="form-login" onsubmit="logar(event)">
+
+                    <h3>Login</h3>
+
+                    <input type="text" placeholder="usuario: " id="usuario" required="true"
+                     minlength="3" maxlength="15">
+
+                    <input type="password" placeholder="senha: " id="senha" required="true"
+                     minlength="3" maxlength="8"/>
+
+                    <input type="submit" value="acessar" onclick="logar(); return false"/>
+
+
+
+                </form>
+            </div>
+        </div>
+
+
+
+        <script src="./js/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
